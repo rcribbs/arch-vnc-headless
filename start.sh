@@ -40,7 +40,7 @@ function _set_password {
         password="$DEFAULT_VNC_PASSWORD"
     fi
 
-    echo "$VNC_PASSWORD" | vncpasswd -f > $pwdfile
+    echo "$password" | vncpasswd -f > $pwdfile
     chmod 600 $pwdfile
 }
 
