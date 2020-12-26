@@ -3,8 +3,5 @@
 ## Several common ones are shown below. Uncomment and modify to your liking.
 ##
 securitytypes=vncauth,tlsvnc,vencrypt
-#desktop=sandbox
-#geometry=2560x1440
 depth=24+32
-#localhost
-#alwaysshared
+rfbport=5901
