@@ -48,7 +48,7 @@ function _set_password {
 function _start_vnc {
     _set_password
 
-    vncserver
+    vncserver $DISPLAY
 
     _process_xrandr_env
 
