@@ -1,11 +1,11 @@
-name: ci
+name: Docker-Build
 
 on:
   push:
     branches:
       - 'master'
       - 'next'
-  tags:
+    tags:
       - 'v*.*.*'
   pull_request:
     branches:
