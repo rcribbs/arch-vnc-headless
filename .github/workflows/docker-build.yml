@@ -67,4 +67,4 @@ jobs:
           tags: rcribbs/arch-vnc-headless:latest-base
           labels: ${{ steps.meta.outputs.labels }}
           build-args:
-            - ARCH=base
+            - 'ARCH=base'
