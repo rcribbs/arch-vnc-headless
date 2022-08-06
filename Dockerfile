@@ -8,7 +8,7 @@ RUN pacman -Sy && pacman -S --noconfirm \
     xfce4 \
     vim
 
-ENV DUMB_INIT_VERSION "1.2.4"
+ENV DUMB_INIT_VERSION "1.2.5"
 
 RUN wget -O /usr/local/bin/dumb-init \
 "https://github.com/Yelp/dumb-init/releases/download/v${DUMB_INIT_VERSION}"\
